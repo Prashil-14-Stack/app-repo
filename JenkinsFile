@@ -4,9 +4,8 @@ pipeline{
     stages{
         stage {
             step {
-                git branch : 'main'
-                credentialsId: 'git-cred'
-                url: 'https://github.com/eamanze/application-repo.git'
+                git branch: 'main'
+                url: 'https://github.com/Prashil-14-Stack/app-repo.git'
             }
         }
     }
