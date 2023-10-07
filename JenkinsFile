@@ -3,7 +3,7 @@ pipeline {
     
     stages {
         stage('Q') {
-            step {
+            steps {
                 git branch: 'main',
                 url: 'https://github.com/Prashil-14-Stack/app-repo.git'
             }
