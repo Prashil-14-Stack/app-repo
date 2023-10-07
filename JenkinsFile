@@ -1,8 +1,8 @@
-pipeline{
+pipeline {
     agent any
     
-    stages{
-        stage {
+    stages {
+        stage('Q') {
             step {
                 git branch: 'main',
                 url: 'https://github.com/Prashil-14-Stack/app-repo.git'
